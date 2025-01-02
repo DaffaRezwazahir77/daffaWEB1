@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profile</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <header class="nav-container">
+        <div class="title">
+            <a href="#home">Daffa Rezwazahir</a>
+        </div>
+        <nav class="nav-list">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav> 
+    </header>
+    <main>
+        <div id="home" class="intro">
+            <article class="card">
+                <h1>Hi, I'm <span style="color: rgb(24, 28, 75);">Daffa Rezwazahir</span></h1>
+                <h3>Frontend Developer</h3>
+                <p>Frontend Developer adalah seorang pengembang yang bertanggung jawab untuk merancang dan membangun bagian dari situs web atau aplikasi yang langsung berinteraksi dengan pengguna. Mereka fokus pada elemen yang tampak oleh pengguna, seperti antarmuka (UI), layout, dan interaktivitas.</p>
+                <a href="#contact" class="btn-hire">Hire <span>Me</span></a>
+            </article>
+            <aside>
+                <img src="img/rezwa.jpeg" class="pfp" alt="Profile-img" width="350px" height="350px">
+            </aside>
+            
+        </div>  
+
+        <div id="about">
+            <article class="about">
+                <h2>About <span style="color: rgb(5, 0, 56);">me</span></h2>
+                <p>Halo! Nama saya [Nama Anda], saya adalah mahasiswa aktif di Program Studi Ilmu Komputer, Universitas Kuningan. Saya memiliki ketertarikan yang besar terhadap teknologi dan dunia digital, khususnya dalam bidang pengembangan perangkat lunak dan kecerdasan buatan.
+
+                    Sejak kecil, saya selalu tertarik dengan komputer dan bagaimana teknologi dapat memberikan dampak positif dalam kehidupan sehari-hari. Di universitas, saya semakin mendalami berbagai disiplin ilmu komputer, mulai dari algoritma, pemrograman, hingga jaringan komputer.
+                    
+                    Selain belajar, saya juga aktif mengikuti kegiatan di luar akademik, seperti bergabung dalam organisasi mahasiswa, seminar, dan workshop yang berhubungan dengan teknologi. Saya percaya bahwa belajar tidak hanya terjadi di ruang kelas, tetapi juga dalam praktik dan pengalaman langsung.
+                    
+                    Ke depan, saya berambisi untuk mengembangkan diri di dunia teknologi dan berkontribusi dalam solusi-solusi digital yang bermanfaat bagi masyarakat. Saya ingin terus belajar dan tumbuh sebagai seorang profesional yang dapat memberikan dampak positif melalui inovasi di bidang komputer.</p>
+            </article>
+        </div>
+
+        <div id="skills">
+            <h2>Skills</h2>
+            <article class="skill">
+                <section class="tech html">
+                    <h3>HTML</h3>
+                    <p>"saya pernah membuat beberapa kali website menaggunakan HTML"</p>
+                </section>
+                <section class="tech css">
+                    <h3>CSS</h3>
+                    <p>saya pernah membuat website dengan menggunaakan desaign CSS</p>
+                </section>
+                <section class="tech js">
+                    <h3>JAVASCRIPT</h3>
+                    <p>saya pernah membuat project aplikasi to-do list </p>
+                </section>
+            </article>
+        </div>
+
+        <div id="contact">
+            <h2>Contact <span style="color: rgb(0, 0, 0);">Me</span></h2>
+            <form action="contact.php" class="form" method="post">
+                <input type="text" name="nama" placeholder=" Name" required>
+                <br><br>
+                <input type="email" name="email" placeholder=" Email" required>
+                <br><br>
+                <textarea name="pesan" cols="30" rows="10" placeholder=" Message"></textarea>
+                <br><br>
+                <button class="send">Send</button>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <p>Belajar Front-end Web &copy;<span style="color: rgb(1, 13, 14);">Dapol</span>, Dicoding</p>
+    </footer>
+</body>
+</html>
